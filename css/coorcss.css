@@ -1,0 +1,120 @@
+.hs-line-x{
+	font-family: 'Audiowide', cursive;
+	font-size: 6.5em;
+  font-weight: 500;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+	color:white;
+}
+#meraid{position:absolute	; z-index:5; left: 50%; transform: translateX(-50%);top:40%;}
+
+.our-team{
+    text-align: center;
+	margin:10px;
+}
+.our-team .pic{
+    position: relative;
+    overflow: hidden;
+}
+.our-team .pic img{
+    width: 70%;
+    height: auto;
+    transition: all 0.2s ease 0s;
+}
+.our-team:hover .pic img{
+    transform: translateY(15px);
+}
+.our-team .social_media_team{
+    width: 70%;
+	left:15%;
+    position: absolute;
+    bottom: -100%;
+    padding: 25px;
+    background-color:rgba(35, 39, 65, 0.9);
+    transition: all 0.35s ease 0s;
+}
+.our-team:hover .social_media_team{
+    bottom: 0px;
+}
+.our-team .description{
+    margin-top: 10px;
+    color: #fff;
+}
+.our-team .team_social{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    top:2%;
+}
+.our-team .team_social li{
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.our-team .team_social li a{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    color:#fff;
+    font-size: 18px;
+    transition: all 1.3s ease 0s;
+}
+.our-team .team_social li a:hover{
+    background: #fff;
+    color:#424242;
+	border-radius:50%;
+}
+.our-team .team-prof{
+    margin-top: 10px;
+}
+.our-team .post-title a{
+	font-family: 'Audiowide', cursive;
+    text-transform: capitalize;
+    color:#424242;
+    transition: all 0.2s ease 0s;
+}
+.our-team .post-title a:hover{
+    text-decoration: none;
+    color:#2127f1;
+}
+.our-team .post{
+    color:#232741;
+    font-size: 18px;
+}
+@media screen and (max-width: 990px){
+    .our-team{
+        margin:0 0 0 0;
+    }
+	
+}
+@media (max-width:700px){
+	min-width:90%;
+}
+/**********************************************collapsable****************************************************************/
+.collapsible {
+    background-color: #232741;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #fff;
+	border-radius:12px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #777;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+	border-radius:12px;
+}
